@@ -43,7 +43,7 @@ function Hero() {
       </motion.h3>
       <motion.p className="hero-text" variants={itemVariants}>
         I'm a full-stack developer and AI engineer specializing in building
-        scalable applications and AI-integrated systems. Currently pursuing my
+        scalable applications and AI-integrated systems. Completed my
         MCA at{" "}
         <a
           href="https://nitte.edu.in"
