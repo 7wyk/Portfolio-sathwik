@@ -1,0 +1,15 @@
+:root {
+  --tsm: 13px;
+  --tsm1: 14px;
+  --tsm2: 15px;
+  --tbase: 16px;
+  --tlarge: 18px;
+  --tlarge2: 22px;
+  --txlarge: 25px;
+  --tx2large: 32px;
+  --tgiant: clamp(38px, 7.5vw, 76px);
+
+  @media screen and (max-width: 480px) {
+    --tx2large: 24px;
+  }
+}

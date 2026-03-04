@@ -1,0 +1,50 @@
+.contact {
+  margin: 10rem auto 5rem;
+  max-width: 640px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  &-title {
+    font-family: var(--fira-code);
+    font-size: var(--tsm1);
+    color: var(--theme-color);
+    letter-spacing: 0.08em;
+  }
+
+  &-sub-title {
+    font-family: var(--inter);
+    font-size: clamp(36px, 5vw, 56px);
+    color: var(--lightest-slate);
+    font-weight: 700;
+    line-height: 1.1;
+  }
+
+  &-text {
+    color: var(--slate);
+    font-family: var(--inter);
+    font-size: var(--tlarge);
+    line-height: 1.75rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+  }
+
+  &-cta {
+    margin-top: 1rem;
+
+    .btn {
+      font-size: var(--tbase);
+      padding: 1.1rem 2.25rem;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    margin: 6rem auto 4rem;
+
+    &-text {
+      font-size: var(--tbase);
+    }
+  }
+}

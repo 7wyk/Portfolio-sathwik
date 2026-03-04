@@ -1,0 +1,21 @@
+.btn {
+  color: var(--theme-color);
+  padding: 0.75em 1.25em;
+  text-decoration: none;
+  border: 1px solid var(--theme-color);
+  border-radius: 4px;
+  background-color: transparent;
+  font-family: var(--fira-code);
+  font-size: var(--tsm);
+  letter-spacing: 0.05em;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+  display: inline-block;
+
+  &:hover,
+  &:focus {
+    background-color: var(--theme-color-tint);
+    transform: translateY(-2px);
+  }
+}
