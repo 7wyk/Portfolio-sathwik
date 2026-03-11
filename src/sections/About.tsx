@@ -7,9 +7,11 @@ const skills = [
   "Python",
   "React.js",
   "Node.js",
+  "Express.js",
+  "Django",
   "FastAPI / Flask",
   "LangChain / RAG",
-  "MongoDB / PostgreSQL",
+  "MongoDB / PostgreSQL / MySQL",
   "Docker (basic)",
   "Tailwind CSS",
 ];
