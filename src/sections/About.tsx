@@ -11,7 +11,8 @@ const skills = [
   "Django",
   "FastAPI / Flask",
   "LangChain / RAG",
-  "MongoDB / PostgreSQL / MySQL",
+  "MongoDB",
+  "MySQL / PostgreSQL",
   "Docker (basic)",
   "Tailwind CSS",
 ];
