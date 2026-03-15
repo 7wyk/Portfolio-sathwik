@@ -9,6 +9,36 @@ const projectsData: ProjectData[] = [
       "/assets/images/project-1-2.png",
       "/assets/images/project-1-3.png",
     ],
+    projectName: "DataBridge ERP",
+    projectDescription:
+      "An enterprise-grade CRM–ERP integration platform that synchronizes customer orders and inventory between CRM and ERP modules via REST APIs and event-driven webhook workflows. Features modular dashboards for order tracking, inventory monitoring, customer management, and system integration logs — built for scalability and real-time data consistency.",
+    projectTech: ["React 18", "Node.js", "Express.js", "Prisma ORM", "SQLite", "REST APIs", "Webhooks", "JWT", "Recharts"],
+    projectExternalLinks: {
+      github: "https://github.com/7wyk/DataBridge-ERP-CRM-ERP-Integration-System-MERN-Web-Applications",
+      externalLink: "",
+    },
+  },
+  {
+    images: [
+      "/assets/images/project-2-1.png",
+      "/assets/images/project-2-2.png",
+      "/assets/images/project-2-3.png",
+    ],
+    projectName: "QuoteForge",
+    projectDescription:
+      "A CPQ-style web platform with a real-time product configuration engine, rule-based pricing logic, approval workflows, and PDF quote generation for sales teams. Implements JWT authentication, Role-Based Access Control (Admin/Sales), quote analytics dashboards, and REST API integrations — engineered for enterprise sales efficiency.",
+    projectTech: ["React 18", "Node.js", "Express.js", "MongoDB", "REST APIs", "JWT", "RBAC", "PDFKit", "Recharts", "Tailwind CSS"],
+    projectExternalLinks: {
+      github: "https://github.com/7wyk",
+      externalLink: "",
+    },
+  },
+  {
+    images: [
+      "/assets/images/project-3-1.png",
+      "/assets/images/project-3-2.png",
+      "/assets/images/project-3-3.png",
+    ],
     projectName: "Skillify",
     projectDescription:
       "A role-based e-learning platform built on the MERN stack, enabling instructors to create courses and students to enroll, track progress, and take quizzes. Implements JWT authentication and RBAC via Node.js, Express, and MongoDB — engineered for security and scale.",
@@ -20,9 +50,9 @@ const projectsData: ProjectData[] = [
   },
   {
     images: [
-      "/assets/images/project-2-1.png",
-      "/assets/images/project-2-2.png",
-      "/assets/images/project-2-3.png",
+      "/assets/images/project-4-1.png",
+      "/assets/images/project-4-2.png",
+      "/assets/images/project-4-3.png",
     ],
     projectName: "SignSpeak AI",
     projectDescription:
@@ -35,44 +65,14 @@ const projectsData: ProjectData[] = [
   },
   {
     images: [
-      "/assets/images/project-3-1.png",
-      "/assets/images/project-3-2.png",
-      "/assets/images/project-3-3.png",
+      "/assets/images/project-5-1.png",
+      "/assets/images/project-5-2.png",
+      "/assets/images/project-5-3.png",
     ],
     projectName: "MediQuery AI",
     projectDescription:
       "An RAG-powered medical chatbot where users upload documents for intelligent retrieval and summarization using Groq's LLaMA3-70B. Built with a FastAPI backend supporting document ingestion and chat history, and a React frontend with real-time streaming responses via Pinecone vector search.",
     projectTech: ["React.js", "FastAPI", "Groq (LLaMA3-70B)", "LangChain", "Pinecone", "Google Generative AI"],
-    projectExternalLinks: {
-      github: "https://github.com/7wyk",
-      externalLink: "",
-    },
-  },
-  {
-    images: [
-      "/assets/images/project-4-1.png",
-      "/assets/images/project-4-2.png",
-      "/assets/images/project-4-3.png",
-    ],
-    projectName: "Twitify",
-    projectDescription:
-      "A full-stack social microblogging platform with tweet management, image uploads, and a glassmorphic UI. Built with Django REST Framework for token-authenticated APIs and a React 18 frontend, demonstrating clean separation of concerns across a modern full-stack architecture.",
-    projectTech: ["Django 4.2+", "Django REST Framework", "Token Auth", "SQLite", "React 18", "React Router"],
-    projectExternalLinks: {
-      github: "https://github.com/7wyk",
-      externalLink: "",
-    },
-  },
-  {
-    images: [
-      "/assets/images/project-5-1.png",
-      "/assets/images/project-5-2.png",
-      "/assets/images/project-5-3.png",
-    ],
-    projectName: "SkillMatch AI",
-    projectDescription:
-      "An AI-powered SaaS resume analyzer that evaluates ATS compatibility, keyword optimization, and grammar quality in real-time. Features interactive analytics dashboards with Recharts, smooth Framer Motion animations, and a modern fintech-inspired UI. Built with a scalable Express backend and modular React frontend architecture.",
-    projectTech: ["React (Vite)", "Tailwind CSS", "Framer Motion", "Recharts", "Node.js", "Express.js", "Lucide React"],
     projectExternalLinks: {
       github: "https://github.com/7wyk",
       externalLink: "",

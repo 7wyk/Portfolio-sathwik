@@ -5,16 +5,19 @@ import ProfileImage from "@/components/ProfileImage";
 const skills = [
   "JavaScript (ES6+)",
   "Python",
+  "C#",
   "React.js",
   "Node.js",
   "Express.js",
+   "FastAPI / Flask",
   "Django",
-  "FastAPI / Flask",
+  "REST APIs",
   "LangChain / RAG",
-  "MongoDB",
-  "MySQL / PostgreSQL",
-  "Docker (basic)",
+  "MongoDB / MySQL",
+  "PostgreSQL / SQLite",
+  "Docker / Git",
   "Tailwind CSS",
+  "Azure DevOps",
 ];
 
 const sectionVariants = {
